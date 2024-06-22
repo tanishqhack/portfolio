@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Agentur";
+    src: url("FontsFree-Net-Agentur-Display.ttf");
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Agentur', sans-serif;
+    background-image: url("NavBarBackgroundImage2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.supercontainer{
+    display: flex;
+    justify-content: center;
+}
+.text {
+    margin-top: 280px;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    padding-right: 40px;
+    text-align: center; /* Center-align the text */
+}
+
+.mind {
+    color: #ff5f1f;
+    display: inline; /* Ensure "Mind" stays on the same line */
+}
+
+.message {
+    color: #ff5f1f;
+    display: inline; /* Ensure "message." stays on the same line */
+}
+
+
+.formcontainer {
+    font-size: 30px;
+    color:#ff5f1f;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.contactForm {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 8%;
+    width: 400px;
+    height: 500px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white; 
+    border-style: solid;
+    border-width: 1px;
+    border-color: azure;
+}
+input{
+    color: white;
+    font-family: 'Agentur', sans-serif;
+}
+.contactForm input[type="text"] {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border: none; 
+    padding: 5px; 
+    box-sizing: border-box;
+    width:90%
+}
+.messageform input[type="text"]{
+    margin-top: 5px;
+    height: 180px;
+}
+button {
+    font-family: 'Agentur', sans-serif;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: #ff5f1f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+button:hover{
+    background-color: white;
+    color: #ff5f1f;
+    transition-duration: 0.5s;
+}
